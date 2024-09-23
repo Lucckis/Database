@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4EACFB4-C02A-A7D1-71A5-582EC137B750" name="CURSO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:05:00 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_curso" id="3789A6D4-D762-2F89-E67B-EFB32D8F0EF6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:37 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="45CCEED4-CB6C-4045-0E8B-0DBECA9F105C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:43 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carga_horaria" id="F01EDF5C-C1B1-EDDE-23CF-88ED64D956EC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:54 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3CE5642-B89B-2204-BE48-8D5D3B1400A1" name="CURSO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:42 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3789A6D4-D762-2F89-E67B-EFB32D8F0EF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

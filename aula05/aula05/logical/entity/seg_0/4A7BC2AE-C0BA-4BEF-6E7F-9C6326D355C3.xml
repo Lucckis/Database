@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A7BC2AE-C0BA-4BEF-6E7F-9C6326D355C3" name="DISCIPLINA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:04:46 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_disciplina" id="33286B06-6B58-A526-295E-1F706640F7E1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:14:10 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="6AC1C5B4-86B3-6E26-715F-99BD505D900B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:14:18 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carga_horaria" id="95CBF128-68D7-57C9-44B4-B00DFD6E497A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:14:24 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plano_ensino" id="FD7226D7-8DDE-0026-C431-88CC93E3011B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:14:32 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="514E6C6B-35A5-7B7A-772C-B8D721190153">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:34:26 UTC</createdTime>
+<generatorID>E77F3A46-1F66-0377-07CB-DF02E8B96C94</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<referedAttribute>3789A6D4-D762-2F89-E67B-EFB32D8F0EF6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0BAFE08D-BE16-887F-E63F-92F7B8FD5FA8" name="DISCIPLINA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:23:58 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33286B06-6B58-A526-295E-1F706640F7E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

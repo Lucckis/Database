@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="906EF101-C0DF-C86F-C6B0-55CA4F8DCE45" name="TURMA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:04:27 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_turma" id="102E8F22-F578-58C5-7192-3D83C61F95DF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:12:48 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_turma" id="D8114B9B-EBFE-577A-B350-12E02557C1A5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:12:57 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sala" id="DC9F594D-1FFD-19B4-87E9-C2B3D0642F76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:04 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="periodo" id="FDD125B2-9D67-5265-F199-25FD1793D7C6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:12 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modalidade" id="27B9CF3C-FD74-3205-5510-BF857F90D9BE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:13:19 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="570EBF18-F1DB-FD3C-DCBB-338054D2DF7A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:34:17 UTC</createdTime>
+<generatorID>85B7F8A9-1037-995D-3F75-22244AFD3863</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<referedAttribute>3789A6D4-D762-2F89-E67B-EFB32D8F0EF6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CAE07754-B0E2-55B1-4CCC-86BFBD90C5E3" name="TURMA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:12:52 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>102E8F22-F578-58C5-7192-3D83C61F95DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

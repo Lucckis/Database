@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3AD026A-5EDA-0F9A-A3B6-BC09E7CA4935" name="ALUNO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:03:43 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ra" id="4EB83831-0AD5-9D6A-30B4-BC419514553E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:10:47 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="A399D862-2702-8A6A-03FD-BA526C615303">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:11:19 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="D3772B26-9015-69D8-DE6B-E7912347FC2F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:11:31 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="F24B35C2-74E9-5A36-1C0F-1C80BD38E47C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:11:49 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="04F113FF-4A91-080C-12ED-3C871B41A780">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:12:00 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_autentica" id="CE643E39-0DEB-08BE-9040-5D29058C207E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:27:47 UTC</createdTime>
+<generatorID>73F4AA0B-F668-6195-712D-71359E3EB2CA</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<referedAttribute>3B121F9C-BCAD-D131-B80F-94540C228C58</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turma" id="8A1D60A0-991B-9A4E-AC92-839F147A5F10">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:34:04 UTC</createdTime>
+<generatorID>7D9D3B62-C44E-AC12-EB09-58A7C33A1C12</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<referedAttribute>102E8F22-F578-58C5-7192-3D83C61F95DF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17419CED-2E59-EB17-351D-EAFF1EF8642E" name="ALUNO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-23 11:11:10 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="EE570234-9662-7A3D-EF10-39BBA93A3913" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EB83831-0AD5-9D6A-30B4-BC419514553E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
